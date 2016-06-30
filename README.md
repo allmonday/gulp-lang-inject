@@ -1,6 +1,6 @@
 # gulp-lang-inject  
 One day, I wrote a html page in chinese, but it also need to be tested in Russian. I dont't like to change it again so I wrote a gulp plugin..
-`gulp-lang-inject` to automatically generate text of different for me.
+`gulp-lang-inject` to automatically generate text of different languages for me.
 
 # Install
 `npm install --save-dev gulp-lang-inject`
