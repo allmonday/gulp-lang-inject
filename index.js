@@ -2,17 +2,6 @@ var through = require('through2');
 var gutil = require('gulp-util');
 var _ = require('lodash');
 
-var _langs = {
-	'cn': '感受宁静敞开心扉祥和',
-	'id': 'LfidKA sidfq wernmz',
-	'en': 'abcde fghijklmnop qrstuvwxyz',
-	'ru': 'железнодоро жный'
-};
-
-var randGenerator = function (langType) {
-	var langData = _langs[langType];
-}
-
 var repeat = function (langType, len) {
 	var lang = {
 		'cn': '感宁 敞开心 扉祥和',
@@ -42,7 +31,7 @@ module.exports = function (options) {
 		var content = file.contents.toString();
 		var compiled = _.template(content);
 		var bindedRepeat = _.bind(repeat, {}, options.langType || 'cn');
-		var returnVal = compiled({'foo': bindedRepeat });
+		var returnVal = compiled({'lang': bindedRepeat });
 		file.contents = new Buffer(returnVal);
 
 		this.push(file);
