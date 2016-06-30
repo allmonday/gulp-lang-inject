@@ -1,4 +1,4 @@
-# gulp-lang-inject
+# gulp-lang-inject  [![NPM version][npm-image]][npm-url] 
 
 One day, I wrote a html page in chinese, but it also need to be tested in Russian. I dont't like to change it again so I wrote a gulp plugin..
 `gulp-lang-inject` to automatically generate text of different for me.
