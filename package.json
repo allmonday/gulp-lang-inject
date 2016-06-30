@@ -1,12 +1,12 @@
 {
-  "name": "gulp-plugin-test",
+  "name": "gulp-lang-inject",
   "version": "1.0.0",
-  "description": "",
+  "description": "language injector in template, support chinese and russian",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "tangkikodo",
   "license": "ISC",
   "devDependencies": {
     "gulp-util": "^3.0.7",
