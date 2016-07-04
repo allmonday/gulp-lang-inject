@@ -1,6 +1,6 @@
 {
   "name": "gulp-lang-inject",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "language injector in template, support chinese and russian",
   "main": "index.js",
   "scripts": {
